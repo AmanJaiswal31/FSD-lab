@@ -1,0 +1,70 @@
+body{
+    background:#1f1f1f;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:Arial, sans-serif;
+}
+
+#screen{
+    height:60px;
+    background:#2b2836;
+    color:#fff;
+    border:none;
+    border-radius:16px;
+    border-bottom-left-radius:0 ;
+      border-bottom-right-radius:0 ;
+    font-size:28px;
+    text-align:right;
+   
+}
+
+body > div{
+    background:#8f88d8;
+    padding:15px;
+    border-radius:20px;
+}
+
+body > div > div{
+    background:#2b2836;
+    padding:25px;
+    border-radius:25px;
+       border-top-left-radius:0 ;
+      border-top-right-radius:0 ;
+    box-shadow:0 20px 40px rgba(0,0,0,0.4);
+}
+
+.button{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    border:none;
+    margin:6px;
+    font-size:16px;
+    color:#fff;
+    background:#2f2c3b;
+    box-shadow: 6px 6px 12px #1c1a24,
+               -6px -6px 12px #3a3548;
+    cursor:pointer;
+}
+
+.button:active{
+    box-shadow: inset 4px 4px 8px #1c1a24,
+                inset -4px -4px 8px #3a3548;
+}
+
+.button[value="+"] ,
+.button[value="-"] ,
+.button[value="*"] ,
+.button[value="/"]{
+    background:#5c3fa3;
+}
+
+.button[value="="]{
+    background:#7b5cff;
+}
+
+.button[value="ce"]{
+    color:#9c7cff;
+}
