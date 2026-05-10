@@ -38,6 +38,8 @@ I enjoy turning ideas into working software and continuously improving my proble
 | HTML5 | Structure & layout |
 | CSS3 | Styling & animations |
 | Git & GitHub | Version control |
+|Data Science |
+
 
 ---
 
